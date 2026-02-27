@@ -13,6 +13,11 @@ Desktop application for **meeting transcription and summarization** with Arabic/
 - Structured summary (key points / decisions / action items)
 - Export results (DOCX)
 
+## Tech Stack
+- UI: **PySide6 (Qt)**
+- Speech-to-Text (ASR): **faster-whisper** + **ctranslate2**
+- Audio processing: **ffmpeg**
+
 ## Requirements
 - Windows 10/11
 - Python 3.x
