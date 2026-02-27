@@ -1,29 +1,27 @@
-(
-echo # ALSA Meeting Transcriber (PyQt)
-echo.
-echo Desktop application for meeting transcription and summarization (Arabic/English mixed).
-echo.
-echo ## Project Links
-echo - GitHub: https://github.com/alaakasem157-ctrl/ALSA-meeting-transcriber
-echo - Demo Video: ^(PUT YOUR DEMO LINK HERE^)
-echo.
-echo ## Requirements
-echo - Windows 10/11
-echo - Python 3.x
-echo - ffmpeg installed and added to PATH
-echo.
-echo ## Setup
-echo ```bash
-echo python -m venv .venv
-echo .venv\Scripts\activate
-echo pip install -r requirements.txt
-echo ```
-echo.
-echo ## Run
-echo ```bash
-echo python main.py
-echo ```
-echo.
-echo ## Notes
-echo - Model caches are downloaded on first run and are not stored in this repo.
-) > README.md
+# ALSA Meeting Transcriber (PyQt)
+
+Desktop application for **meeting transcription and summarization** with Arabic/English mixed support.
+
+## Links
+- Repository: https://github.com/alaakasem157-ctrl/ALSA-meeting-transcriber
+- Demo video: (PUT YOUR DEMO LINK HERE)
+
+## Features
+- Upload/record audio
+- Transcription (Arabic/English mixed)
+- Post-processing + glossary correction
+- Structured summary (key points / decisions / action items)
+- Export results (DOCX)
+
+## Requirements
+- Windows 10/11
+- Python 3.x
+- **ffmpeg** installed and added to PATH
+
+## Install ffmpeg (Windows)
+1. Download ffmpeg build for Windows
+2. Extract it (you should have: `ffmpeg/bin/ffmpeg.exe`)
+3. Add `ffmpeg/bin` to **PATH**
+4. Verify:
+```bash
+ffmpeg -version
