@@ -1,4 +1,4 @@
-# ALSA Meeting Transcriber (PyQt)
+# ALSA Meeting Transcriber (PySide6 / Qt)
 
 Desktop application for **meeting transcription and summarization** with Arabic/English mixed support.
 
