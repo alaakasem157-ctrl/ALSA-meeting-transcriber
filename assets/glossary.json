@@ -1,0 +1,31 @@
+{
+  "replacements": [
+    {"from": "شلونك", "to": "كيف حالك"},
+    {"from": "شو", "to": "ماذا"},
+    {"from": "ليش", "to": "لماذا"},
+    {"from": "هيك", "to": "هكذا"},
+    {"from": "تمام", "to": "حسنًا"},
+    {"from": "مو", "to": "ليس"},
+    {"from": "مافي", "to": "لا يوجد"},
+    {"from": "بدّي", "to": "أريد"},
+    {"from": "بدنا", "to": "نريد"},
+    {"from": "يعني", "to": "أي"},
+    {"from": "هلأ", "to": "الآن"},
+
+    {"from": "يوتيوب", "to": "YouTube"},
+    {"from": "باوربوينت", "to": "PowerPoint"},
+    {"from": "وورد", "to": "Word"},
+    {"from": "بي دي اف", "to": "PDF"},
+    {"from": "اي بي أي", "to": "API"},
+    {"from": "سي بي يو", "to": "CPU"},
+    {"from": "جي بي يو", "to": "GPU"},
+    {"from": "VAD", "to": "VAD"},
+    {"from": "ويسبر", "to": "Whisper"},
+    {"from": "فاست وبسير", "to": "faster-whisper"}
+  ],
+  "regex_replacements": [
+    {"pattern": "\\s+\\.", "to": "."},
+    {"pattern": "\\s+,", "to": ","},
+    {"pattern": "،\\s*،", "to": "،"}
+  ]
+}

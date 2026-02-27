@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+build/
+dist/
+hf_cache/
+models/
+*.log
+.env
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.webm
