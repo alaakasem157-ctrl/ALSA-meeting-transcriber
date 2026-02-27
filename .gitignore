@@ -13,3 +13,4 @@ models/
 *.m4a
 *.ogg
 *.webm
+assets/ffmpeg/ffmpeg.exe
