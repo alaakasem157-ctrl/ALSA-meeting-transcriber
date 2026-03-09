@@ -4,7 +4,9 @@ Desktop application for **meeting transcription and summarization** with Arabic/
 
 ## Links
 - Repository: https://github.com/alaakasem157-ctrl/ALSA-meeting-transcriber
-- Demo video: (PUT YOUR DEMO LINK HERE)
+- : Demo Video
+https://drive.google.com/file/d/1FPOtC6QMErVuLnuy9g9WrXqvMGbY2AR9/view?usp=drive_link
+
 
 ## Features
 - Upload/record audio
